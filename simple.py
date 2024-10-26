@@ -16,7 +16,7 @@ cfg.MODEL.DEVICE = "cpu"  # Use CPU, or "cuda" if you have a compatible GPU
 predictor = DefaultPredictor(cfg)
 
 # Start webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("http://127.0.0.1:8080/video")
 
 if not cap.isOpened():
     print("Error: Could not open webcam.")
