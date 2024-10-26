@@ -3,3 +3,7 @@
 3.run adb forward tcp:8080 tcp:8080
 4.run the simple.py script
 you can also see the stream video in browser
+
+
+probable issues:
+1. for installing detectron2 you have to clone it manually, build it and install it using pip
