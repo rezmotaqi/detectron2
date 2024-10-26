@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "detectron2_project"
+version = "0.1.0"
+description = ""
+authors = ["rezmotaqi <rezmotaqi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+detectron2 = { git = "https://github.com/facebookresearch/detectron2.git", rev = "main" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
